@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react'
-import Mole from './src/Mole'
-import EmptyHill from './src/EmptyMoleSlot'
+import Mole from './Mole'
+import EmptyHill from './EmptyMoleSlot'
 
 const MoleContainer = (props) => {
     let [ leMole, setLeMole] = useState(false)

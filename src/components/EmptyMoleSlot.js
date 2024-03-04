@@ -1,5 +1,5 @@
 import { useEffect } from 'react'
-import MoleHill from './Assets/molehill.png'
+import MoleHill from '../Assets/molehill.png'
 
 const EmptyHill = (props) => {
     
