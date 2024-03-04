@@ -1,6 +1,7 @@
 import './App.css';
 import { useState } from 'react'
 import MoleContainer from './components/MoleContainer';
+import './whackamole.css'
 
 function App() {
 
@@ -22,9 +23,14 @@ function App() {
 
 
   return (
-    <div className="App">
+    <div className="gameBoard">
       <h1>React-A-Mole!</h1>
-      {score}
+      <div className='scoreContainer'>
+        <div className='scoreDisplay'>
+          <span className='scoreLabel'>Score</span>
+          <span className='scoreValue'>{score}</span>
+        </div>
+      </div>
       {createMoleHill()}
     </div>
   );

@@ -4,7 +4,7 @@ import MoleHill from '../Assets/molehill.png'
 const EmptyHill = (props) => {
     
     useEffect(() => {
-        let randomSec =Math.ceil(Math.random() * 5000)
+        let randomSec =Math.ceil(Math.random() * 4000)
         let timer = setTimeout(() => {
             props.toggle(true)
         }, randomSec)

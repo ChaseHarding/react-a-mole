@@ -1,0 +1,42 @@
+.gameBoard {
+    align-items: center; 
+    text-align: center;
+    background-color: rgb(3, 40, 40);
+}
+.gameBoard h1 {
+    background: linear-gradient(to right, #FFD700, #FFA500);
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+.scoreContainer {
+    width: 30%;
+    border-radius: 20px;
+    margin-top: 0px;
+    margin-top: 20px;
+    background: linear-gradient(to bottom, #FFD700, #FFA500);
+}
+
+.scoreDisplay {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.scoreLabel {
+    font-size: 24px;
+    font-weight: bold;
+    margin-right: 10px;
+    color: orangered;
+}
+
+.scoreValue {
+    font-size: 36px;
+    font-weight: bold;
+    color: orangered;
+
+}

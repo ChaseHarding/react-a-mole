@@ -4,7 +4,7 @@ import moleImg from '../Assets/mole.png'
 const Mole = (props) => {
 
     useEffect(() => {
-        let randomSec = Math.ceil(Math.random() * 10000)
+        let randomSec = Math.ceil(Math.random() * 8000)
         let timer = setTimeout(() => {
             props.toggle(false)
         }, randomSec)
